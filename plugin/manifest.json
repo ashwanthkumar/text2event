@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Text2Event",
+  "description": "Chrome plugin parsing events from text",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "jquery-1.11.0.min.js",
+      "script.js"
+    ]
+  },
+  "icons": { 
+    "128": "icons/128.png",
+    "64": "icons/64.png",
+    "16": "icons/16.png"
+  }
+}
